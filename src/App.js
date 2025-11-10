@@ -246,7 +246,6 @@ function App() {
       <div style={{ display: 'flex', gap: 8, marginBottom: 8, flexWrap: 'wrap' }}>
         <button onClick={exportJson} disabled={!pdfBytes}>Export JSON</button>
         <button onClick={debugLogValues} disabled={!pdfBytes}>Debug: Log Values</button>
-        <button onClick={savePdf} disabled={!pdfBytes}>Save & Flatten</button>
         <button onClick={exportDocx} disabled={!pdfBytes}>Export DOCX</button>
       </div>
 
